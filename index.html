@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>DudeShape</title>
 </head>
+
 <body>
 
   <div class="wrapper">
     <header class="header">
-      <div class="header-logo">
-        <h1></h1>
-      </div>
-      <div class="header-nav__collapse">
-        <nav class="header-nav">
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
-        </nav>
-        <button>
-          <svg>
-            <use href="./assets/img/icon/svg-sprite.svg#search-icon"></use>
-          </svg>
-          <input type="search">
-        </button>
-      </div>
-      <div class="hamburger-menu">
-        <span></span>
+      <div class="header-content container">
+        <h1>DudeShape</h1>
+        <div class="header-nav__collapse">
+          <nav class="header-nav">
+            <a href="#" class="header-nav__link">Home</a>
+            <a href="#" class="header-nav__link">About</a>
+            <a href="#" class="header-nav__link">Features</a>
+            <a href="#" class="header-nav__link">Contact</a>
+          </nav>
+          <button class="header-search__btn">
+            <svg class="header-search__btn-icon">
+              <use href="./assets/img/icon/svg-sprite.svg#search-icon"></use>
+            </svg>
+            <input type="search" placeholder="Search furniture">
+          </button>
+        </div>
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </header>
   </div>
@@ -38,4 +42,5 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
