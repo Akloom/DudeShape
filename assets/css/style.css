@@ -116,13 +116,11 @@
 }
 
 .hamburger-menu {
+  display: none;
   cursor: pointer;
   margin-left: 40px;
   max-width: 24px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
 }
 .hamburger-menu span:nth-child(1) {
   width: 12px;
@@ -160,6 +158,9 @@
 @media screen and (max-width: 920px) {
   .hamburger-menu {
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
   .header-nav__collapse {
     display: flex;
