@@ -10,4 +10,14 @@ let navCollapse = document.querySelector('.header-nav__collapse');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('is-active');
   navCollapse.classList.toggle('is-active');
-})
+});
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  freeMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
