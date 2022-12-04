@@ -847,5 +847,18 @@
     gap: 50px;
   }
 }
+.copyright {
+  border-top: 1px solid #506E71;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #305F64;
+}
+.copyright p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
 
 /*# sourceMappingURL=style.css.map */
